@@ -8,24 +8,27 @@
 5. 실행된 카메라 컨트롤러를 통해 QR코드 인식.
 6. 화면의 일부 영역만 스캔 인식 영역으로 지정.
 
-
-
+## Packages
+- provider: ^6.0.5                  // 상태 관리.
+- permission_handler: ^10.2.0       // 카메라 사용 권한.
+- flutter_platform_widgets: ^2.2.6  // 플랫폼마다 고유 테마 적용.
+- qr_code_scanner: ^1.0.1           // QR Code 스캔.
 
 ## Test Videos
 ### AOS
 - Recognize_QR_Code
-https://user-images.githubusercontent.com/41365432/225858065-66411fb9-2283-4586-96b1-0c31830c236b.mp4
+<video src='https://user-images.githubusercontent.com/41365432/225858065-66411fb9-2283-4586-96b1-0c31830c236b.mp4' width=200/>
 
 - Set_Font_Size
-https://user-images.githubusercontent.com/41365432/225858144-98f50d17-9de4-4d33-a64b-bfcc9c1e32e9.mp4
+<video src='https://user-images.githubusercontent.com/41365432/225858144-98f50d17-9de4-4d33-a64b-bfcc9c1e32e9.mp4' width=200/>
 
 - Dark_Mode
-https://user-images.githubusercontent.com/41365432/225858354-a61488e8-0092-49af-b918-2258f04077ee.mp4
+<video src='https://user-images.githubusercontent.com/41365432/225858354-a61488e8-0092-49af-b918-2258f04077ee.mp4' width=200/>
+</br>
 
 ### iOS
 - Set_Font_Size
-https://user-images.githubusercontent.com/41365432/225858459-bb84cf69-10b0-4143-8d1b-ef03053c11d4.mp4
+<video src='https://user-images.githubusercontent.com/41365432/225858459-bb84cf69-10b0-4143-8d1b-ef03053c11d4.mp4' width=200/>
 
 - Dark_Mode
-https://user-images.githubusercontent.com/41365432/225858488-b0f6450e-269b-4014-ac69-d4e7c32b16f4.mp4
-
+<video src='https://user-images.githubusercontent.com/41365432/225858488-b0f6450e-269b-4014-ac69-d4e7c32b16f4.mp4' width=200/>
