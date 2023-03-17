@@ -1,5 +1,7 @@
 # Chain Lightning Company's Technical Challenges.
 
+</br>
+
 ## Challenges
 1. 플랫폼 (iOS, Android) 별 고유한 스타일을 적용.
 2. 시스템 설정 또는 사용자 설정에 따라 다크모드 UI를 지원.
@@ -8,11 +10,15 @@
 5. 실행된 카메라 컨트롤러를 통해 QR코드 인식.
 6. 화면의 일부 영역만 스캔 인식 영역으로 지정.
 
+</br>
+
 ## Packages
 - provider: ^6.0.5                  // 상태 관리.
 - permission_handler: ^10.2.0       // 카메라 사용 권한.
 - flutter_platform_widgets: ^2.2.6  // 플랫폼마다 고유 테마 적용.
 - qr_code_scanner: ^1.0.1           // QR Code 스캔.
+
+</br>
 
 ## Test Videos
 ### AOS
@@ -40,7 +46,6 @@
     </td>
   </tr>
 </table>
-</br>
 
 ### iOS
 <table>
