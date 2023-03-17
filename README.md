@@ -8,6 +8,9 @@
 5. 실행된 카메라 컨트롤러를 통해 QR코드 인식.
 6. 화면의 일부 영역만 스캔 인식 영역으로 지정.
 
+
+
+
 ## Test Videos
 ### AOS
 - Recognize_QR_Code
