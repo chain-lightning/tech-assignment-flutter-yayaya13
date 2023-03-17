@@ -16,19 +16,48 @@
 
 ## Test Videos
 ### AOS
-- Recognize_QR_Code
-<video src='https://user-images.githubusercontent.com/41365432/225858065-66411fb9-2283-4586-96b1-0c31830c236b.mp4' width=200/>
-
-- Set_Font_Size
-<video src='https://user-images.githubusercontent.com/41365432/225858144-98f50d17-9de4-4d33-a64b-bfcc9c1e32e9.mp4' width=200/>
-
-- Dark_Mode
-<video src='https://user-images.githubusercontent.com/41365432/225858354-a61488e8-0092-49af-b918-2258f04077ee.mp4' width=200/>
+<table>
+  <tr>
+    <td>
+      Recognize_QR_Code
+    </td>
+    <td>
+      Set_Font_Size
+    </td>
+    <td>
+      Dark_Mode
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src='https://user-images.githubusercontent.com/41365432/225858065-66411fb9-2283-4586-96b1-0c31830c236b.mp4' width=30%/>
+    </td>
+    <td>
+      <video src='https://user-images.githubusercontent.com/41365432/225858144-98f50d17-9de4-4d33-a64b-bfcc9c1e32e9.mp4' width=30%/>
+    </td>
+    <td>
+      <video src='https://user-images.githubusercontent.com/41365432/225858354-a61488e8-0092-49af-b918-2258f04077ee.mp4' width=30%/>
+    </td>
+  </tr>
+</table>
 </br>
 
 ### iOS
-- Set_Font_Size
-<video src='https://user-images.githubusercontent.com/41365432/225858459-bb84cf69-10b0-4143-8d1b-ef03053c11d4.mp4' width=200/>
-
-- Dark_Mode
-<video src='https://user-images.githubusercontent.com/41365432/225858488-b0f6450e-269b-4014-ac69-d4e7c32b16f4.mp4' width=200/>
+<table>
+  <tr>
+    <td>
+      Recognize_QR_Code
+    </td>
+    <td>
+      Set_Font_Size
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video src='https://user-images.githubusercontent.com/41365432/225858459-bb84cf69-10b0-4143-8d1b-ef03053c11d4.mp4' width=30%/>
+    </td>
+    <td>
+      <video src='https://user-images.githubusercontent.com/41365432/225858488-b0f6450e-269b-4014-ac69-d4e7c32b16f4.mp4' width=30%/>
+    </td>
+  </tr>
+</table>
