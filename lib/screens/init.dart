@@ -1,11 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
-import 'package:challenges_clc/utils/provider.dart';
 import 'package:challenges_clc/ui/theme.dart' as theme;
 import 'package:challenges_clc/screens/qrScanner.dart';
 import 'package:challenges_clc/screens/qrScannerButton.dart';
-import 'package:provider/provider.dart';
 
 class InitScreen extends StatefulWidget {
   const InitScreen({Key? key}) : super(key: key);
@@ -18,9 +15,6 @@ class _InitScreenState extends State<InitScreen> {
   bool isScannerOn = true;
   @override
   Widget build(BuildContext context) {
-    // bool isScannerOn = context.watch<Providers>().isScannerOn;
-
-
     return PlatformScaffold(
       appBar: PlatformAppBar(
         title: Text(

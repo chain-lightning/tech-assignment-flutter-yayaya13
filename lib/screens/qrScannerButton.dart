@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:challenges_clc/screens/qrScanner.dart';
 import 'package:challenges_clc/utils/provider.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:permission_handler/permission_handler.dart';
-
 
 class QrScannerButton extends StatefulWidget {
   const QrScannerButton({Key? key}) : super(key: key);
@@ -14,14 +12,10 @@ class QrScannerButton extends StatefulWidget {
 }
 
 class _QrScannerButton extends State<QrScannerButton> {
-  // Provider.of<Providers>(context, listen: false).set;
   QRViewController? controller;
-  bool isPressed = Providers().isPressed;
 
   // get permission of camera
   Future<bool> permission() async {
-    Map<Permission, PermissionStatus> status = await [Permission.camera].request();
-
     if (await Permission.camera.isGranted) {
       return Future.value(true);
     } else {
@@ -56,28 +50,16 @@ class _QrScannerButton extends State<QrScannerButton> {
           ),
         ),
         onLongPressStart: (_) async {
-          permission();
+          permission();   // Get permissions to a user
 
-          isPressed = true;
           isScannerOn = true;
           Provider.of<Providers>(context, listen: false).setIsScannerOn(isScannerOn);
-
-          // do {
-          //   print('long pressing'); // for testing
-          //
-          //   const QrScanner().doScan(controller!);
-          //
-          //   await Future.delayed(const Duration(milliseconds: 500));
-          // } while (isPressed);
         },
         onLongPressEnd: (_) => setState(() {
-          isPressed = false;
           isScannerOn = false;
-          Provider.of<Providers>(context, listen: false).setIsPressed(isPressed);
           Provider.of<Providers>(context, listen: false).setIsScannerOn(isScannerOn);
         }),
       ),
     );
   }
-
 }

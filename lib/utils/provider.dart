@@ -3,23 +3,16 @@ import 'package:flutter/material.dart';
 class Providers with ChangeNotifier {
   // initial values
   //
-  static bool _isPressed = false;
-  static bool _isScannerOn = false;
-  static String _scanResult = '';
+  static bool _isScannerOn = false;   // Check whether Scan Button is pressing or not
+  static String _scanResult = '';   // Get result of QR Scanning
 
   // get
   //
-  get isPressed => _isPressed;
   get isScannerOn => _isScannerOn;
   get scanResult => _scanResult;
 
   // void - notifyListeners
   //
-  void setIsPressed(bool isPressed) {
-    _isPressed = isPressed;
-    notifyListeners();
-  }
-
   void setIsScannerOn(bool isScannerOn) {
     _isScannerOn = isScannerOn;
     notifyListeners();
