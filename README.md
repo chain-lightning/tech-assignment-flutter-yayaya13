@@ -46,10 +46,10 @@
 <table>
   <tr>
     <td>
-      Recognize_QR_Code
+      Set_Font_Size
     </td>
     <td>
-      Set_Font_Size
+      Dark_Mode
     </td>
   </tr>
   <tr>
